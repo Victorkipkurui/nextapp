@@ -5,7 +5,6 @@ const layout = ({children}: Readonly<{children : React.ReactNode}>) => {
   return (
     <main className='p-6'>
       <Navbar/>
-
       {children}
     </main>
   )
